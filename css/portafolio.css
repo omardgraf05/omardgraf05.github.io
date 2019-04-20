@@ -1,0 +1,140 @@
+/*==== Estilos generales Portafolio ====*/
+.stopScroll{
+    overflow: hidden;
+}
+
+#viewMonarco>img{
+    margin: 0;
+    padding: 0;
+}
+
+.titulosImg{
+    height: 20em;
+}
+
+.contItemsMarcas{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.paddingEjeYPortafolio{
+    padding: 1em 0 7em 0;
+}
+/*==== Estilos generales Portafolio ====*/
+
+/*==== Barra de navegación ====*/
+.txtMenuPortafolio { margin: 0 0 0 1em; color: #fff; font-family: 'roboto-regular'; font-size: 1em;}
+.txtMenuPortafolio:hover { color: #EC7400; text-decoration: none;}
+
+.marcaWhite{
+    width: 100%;
+    height: 6em;
+}
+.navPortafolio{
+    width: 100%;
+    background: rgba(0,0,0,0.1);
+    padding: 1em 0 0.5em 0;
+}
+
+/*==== Fin Barra de navegación ====*/
+
+/*==== Seccion Marcas ====*/
+.contMarcas{
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+    cursor: pointer;
+}
+
+/*============== Iconos e Imagenes ============*/
+    /*=== Marcas Creadas ===*/
+.imgPreOD{
+    background: url(../img/pre-OD-01.svg) no-repeat;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+
+.imgPreMonarco{
+  background: url(../img/pre-monarco-v1.svg) no-repeat;
+  width: 15em;
+  height: 15em;
+  border: 1px solid #6d6d6d;
+}
+
+.imgPreBrotherH{
+    background: url(../img/pre-brotherhood-01.svg) no-repeat;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+
+.imgPreOnirica{
+    background: url(../img/pre-onirica-01.svg) no-repeat;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+
+.imgPreMarcaCon01{
+    background: url(../img/pre-marcaCon-01.svg) no-repeat;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+
+.imgPreLogofolioV1{
+    background: url(../img/logofolio-v01.jpg) no-repeat center;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+.imgPreElCerro{
+    background: url(../img/pre-ElCerro-01.svg) no-repeat;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+.imgPreConexiu{
+    background: url(../img/pre-conexiu-01.svg) no-repeat;
+    width: 15em;
+    height: 15em;
+    border: 1px solid #6d6d6d;
+}
+    /*=== Marcas Creadas ===*/
+    /*=== Websites Diseñados ===*/
+        /*
+        .imgWebOD{ background: url(../img/item-web-OD.png) no-repeat center; width: 15em; height: 15em; border: 1px solid #6d6d6d;}
+
+        .imgWebKokos{ background: url(../img/item-web-Kokos.png) no-repeat; width: 15em; height: 15em; border: 1px solid #6d6d6d;}
+
+        .imgWebCasaB{ background: url(../img/item-web-CasaBlanca.png) no-repeat; width: 15em; height: 15em; border: 1px solid #6d6d6d;}
+        */
+    /*=== Websites Diseñados ===*/
+
+.bannerMarcas{
+    background: url(../img/banner-marcas.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30em;
+}
+
+.bannerCodigos{
+    background: url(../img/banner-codigo.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30em;
+}
+
+.bannerIlustra{
+    background: url(../img/banner-ilustracion.png) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30em;
+}
+
+/*============== Iconos e Imagenes ============*/
