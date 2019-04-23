@@ -606,8 +606,8 @@ html, body {
 }
 
 @keyframes aparecerIzq {
-  from { opacity: 0; transform: translate3d(40%, 0, 0); }
-  to { opacity: 1; transform: none; }
+  from { opacity: 0; transform: translate3d(40%, 0, 0);}
+  to { opacity: 1; transform: none;}
 }
 
 #cohete {
