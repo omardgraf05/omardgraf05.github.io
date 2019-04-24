@@ -533,36 +533,28 @@ html, body {
 /*============== Iconos de seccion Habilidades ============*/
 
 /*== Animaciones ==*/
-
-.aparecer{
+.aparecerUp{
     animation-duration: 2s;
     animation-fill-mode: both;
-    animation-name: aparecer;
+    animation-name: aparecerUp;
     -webkit-animation-duration: 2s;
     -webkit-animation-fill-mode: both;
-    -webkit-animation-name: aparecer;
+    -webkit-animation-name: aparecerUp;
     -moz-animation-duration: 2s;
     -moz-animation-fill-mode: both;
-    -moz-animation-name: aparecer;
+    -moz-animation-name: aparecerUp;
     -sm-animation-duration: 2s;
     -sm-animation-fill-mode: both;
-    -sm-animation-name: aparecer;
+    -sm-animation-name: aparecerUp;
     -o-animation-duration: 2s;
     -o-animation-fill-mode: both;
-    -o-animation-name: aparecer;
+    -o-animation-name: aparecerUp;
 }
 
-@keyframes aparecer {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
+@keyframes aparecerUp {
+  from { opacity: 0; transform: translate3d(0, 100%, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
   }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 
 .aparecerDer{
     animation-duration: 2s;
@@ -584,7 +576,7 @@ html, body {
 
 @keyframes aparecerDer {
   from { opacity: 0; transform: translate3d(-100%, 0, 0); }
-  to { opacity: 1; transform: none; }
+  to { opacity: 1; transform: translate3d( 0, 0, 0); }
 }
 
 .aparecerIzq{
@@ -606,10 +598,34 @@ html, body {
 }
 
 @keyframes aparecerIzq {
-  from { opacity: 0; transform: translate3d(40%, 0, 0);}
-  to { opacity: 1; transform: none;}
+  from { opacity: 0; transform: translate3d(100%, 0, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
 }
 
+.aparecerDown {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: aparecerDown;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: aparecerDown;
+  -moz-animation-duration: 2s;
+  -moz-animation-fill-mode: both;
+  -moz-animation-name: aparecerDown;
+  -sm-animation-duration: 2s;
+  -sm-animation-fill-mode: both;
+  -sm-animation-name: aparecerDown;
+  -o-animation-duration: 2s;
+  -o-animation-fill-mode: both;
+  -o-animation-name: aparecerDown;
+}
+
+@keyframes aparecerDown {
+  from { opacity: 0; transform: translate3d(0, -20%, 0); }
+  to { opacity: 1; transform: translate3d(0, 0, 0); }
+}
+
+/*== Animación cohete ==*/
 #cohete {
     height: 4em;
     position: relative;
@@ -643,7 +659,7 @@ html, body {
     50% {top:10px;}
     100%{top: 0px;}
 }
-/*== Animación cohete ==*/
+
 
 /*== Footer ==*/
 .blackSkew {
